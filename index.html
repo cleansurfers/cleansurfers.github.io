@@ -86,6 +86,18 @@ body{background:var(--paper)}
 .case-study-link:hover{background:#dce8d9;transform:translateX(3px)}
 #dialog-case-study{margin-right:12px}
 @media print{.case-study-link{display:none!important}}
+
+/* Hide language flags */
+.language .flag {
+    display: none !important;
+}
+
+/* Four language cards on desktop */
+@media (min-width: 701px) {
+  .languages {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 </style>
 </head>
 <body><div aria-hidden="true" class="reading-progress"><span></span></div>
@@ -96,7 +108,38 @@ body{background:var(--paper)}
 <div class="art-visual"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div><span class="orbit-dot d1"></span><span class="orbit-dot d2"></span><span class="orbit-dot d3"></span><div class="orbit-core">D<span>✦</span></div></div>
 <div class="art-caption"><span>01 — CONTINUOUS EXPLORATION</span><strong>Patterns, ideas, possibilities.</strong></div></div><div class="art-badge"><small></small><strong>Inspired by the fear of being average.</strong></div><div class="art-stamp">LEARN<br/>✧<br/>BUILD</div><span class="hero-number"></span></div></div><div class="wrap hero-bottom"><span>Research-minded · Project-driven</span><a href="#about">Scroll to explore ↓</a></div></section>
 <section class="content" id="about"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow"></div><h2>A little about me.</h2></div><p class="section-note">A short introduction to my academic background and technical interests.</p></div><div class="about-grid"><div aria-hidden="true" class="about-visual reveal"><span class="big-symbol">✳</span><span class="corner">Computer Science · Ottawa</span></div><div class="about-copy reveal"><div class="eyebrow">Hello &amp; welcome</div><p>I'm pursuing a Master of Computer Science at the University of Ottawa. I'm fascinated by the stories hidden in data, the patterns waiting to be discovered, and the insights they reveal. My interests span Data Science, Machine Learning, Natural Language Processing (NLP), Large Language Models (LLMs), and Computer Vision, where I enjoy exploring how intelligent systems can turn complex information into meaningful insights and solutions.</p><p>My projects have given me opportunities to work with data preparation, model comparison, language models, and image datasets. I'm continuing to develop my skills through coursework and independent experimentation.</p><div class="factline">Areas of interest — ML · NLP · Computer Vision · Data Science</div></div></div></div></section>
-<section class="content soft" id="languages"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow"></div><h2>Languages.</h2></div></div><div class="languages"><article class="language reveal"><div aria-label="Flag of Iran" class="flag">🇮🇷</div><h3>Persian</h3><p>Native</p></article><article class="language reveal"><div aria-label="Flag of the United Kingdom" class="flag">🇬🇧</div><h3>English</h3><p>C1 - IELTS Academic 7.5</p></article><article class="language reveal"><div aria-label="Flag of France" class="flag">🇫🇷</div><h3>French</h3><p>Elementary proficiency - Developing</p></article></div></div></section>
+
+<section class="content soft" id="languages">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <h2>Languages.</h2>
+      </div>
+    </div>
+
+    <div class="languages">
+      <article class="language reveal">
+        <h3>Persian</h3>
+        <p>Native</p>
+      </article>
+
+      <article class="language reveal">
+        <h3>English</h3>
+        <p>Fluent · Academic IELTS 7.5</p>
+      </article>
+
+      <article class="language reveal">
+        <h3>French</h3>
+        <p>Elementary – Developing</p>
+      </article>
+
+      <article class="language reveal">
+        <h3>German</h3>
+        <p>Elementary</p>
+      </article>
+    </div>
+  </div>
+</section>
 <section class="content" id="education"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow"></div><h2>Academic journey.</h2></div><p class="section-note">My educational path, presented as a timeline rather than a list.</p></div><div class="journey"><article class="milestone reveal"><div class="time">Current · Sep 2026 - Apr 2028</div><h3>Master of Computer Science — University of Ottawa</h3><p>Ottawa, Ontario, Canada · Graduate studies in computer science</p></article><article class="milestone reveal"><div class="time">Earlier · Sep 2022 - Jan 2026</div><h3>Bachelor's Degree — Azad University Tehran Central Branch</h3><p>BSc in Computer Science · GPA: 3.7/4 · Tehran, Iran</p></article></div></div></section>
 <!-- ACADEMIC COURSEWORK -->
 <section class="content soft" id="coursework">
